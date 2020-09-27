@@ -75,7 +75,7 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(212, 212, 212);
   padding: 20px;
-  width: 100%;
+  width: 90%;
   height: 100px; 
   margin: 2% 0 0 5%;
 }
@@ -105,9 +105,9 @@
     border-bottom-style: solid;
     border-bottom-color: rgb(212, 212, 212);
     padding: 20px;
-    width: 724px;
+    width: 924px;
     height: 100px; 
-    margin: 2% 0 0 2%;
+    margin: 2% 0 0 0;
   }
   .description{
     width: 60%;
@@ -119,16 +119,4 @@
   }
  
   
-}
-@media only screen and (min-width: 1200px) {
-  .divide{
-    display: flex;
-
-  }
-  .repos{
-    margin-right: 3%;
-  }
- 
-
-
 }
