@@ -1,7 +1,8 @@
 .nav{
   padding: 25px;
   color: white;
-  background-color: #24292E;
+ 
+  background: linear-gradient(90deg, rgba(135,0,245,1) 0%, rgba(179,33,255,1) 44%, rgba(0,155,255,1) 100%);
 }
 .logo{
   padding-bottom: 1em;
@@ -11,7 +12,7 @@
   width: 40px;
 }
 .card {
- 
+ border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
   margin: auto;
@@ -25,20 +26,9 @@
   font-size: 18px;
 }
 .description{
-  width: 50%;
+  width: 80%;
 }
- p button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
+
 .search{
  
  margin-top: -1em;
@@ -51,7 +41,7 @@
     border-radius: 25px;
     background: #ffffff;
     padding: 20px;
-    width: 200px;
+    width: 180px;
     height: 10px;
  
 }
@@ -73,9 +63,11 @@
 .repobox{
   
   border-bottom-style: solid;
+  border-radius: 15px;
+
   border-bottom-color: rgb(212, 212, 212);
   padding: 20px;
-  width: 90%;
+  width: 80%;
   height: 100px; 
   margin: 2% 0 0 5%;
 }
@@ -84,7 +76,7 @@
 }
 .repository{
   border-bottom-style: solid;
-  border-bottom-color: rgb(255, 89, 89);
+  border-bottom-color: rgb(214, 49, 255);
   padding: 15px;
   margin-left: 4%;
   width: 80px;
